@@ -1,6 +1,6 @@
-# WassermanGraphTF - Graphically Representing Transcription Factor Annotation
+# KNITS - Knowledge Networks Informing Transcriptional Studies
 
-The graphTF project facilitates quick and comprehensive TF comparisons that consider multiple types/sources of data.
+The KNITS project facilitates quick and comprehensive TF comparisons that consider multiple types/sources of data.
 
 It does this by:
 - Unifying Transcription Factor (TF) Annotations from high-value sources into a human and machine-readable Neo4j Graph Database

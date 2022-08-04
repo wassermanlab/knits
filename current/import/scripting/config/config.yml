@@ -1,0 +1,23 @@
+biogrid:
+    access_key: "931d2c261ab610818b96bbd8c2175fa7"
+    base_url: "https://webservice.thebiogrid.org"
+jaspar:
+    base_url: "https://jaspar.genereg.net/"
+pfam:
+    base_url: "https://pfam.xfam.org/"
+uscs:
+    base_url: 'https://api.genome.ucsc.edu/'
+#https://github.com/Ensembl/ensembl-rest/wiki/Getting-Started
+ensembl_biomart:
+    base_url: 'http://rest.ensembl.org/'
+string:
+    base_url: 'https://string-db.org/api/'
+ctdbase:
+    base_url: 'http://ctdbase.org/tools/batchQuery.go'
+
+gene_names: ["KLF4", "MYC", "SOX17", "SOX2", "POU5F1", "CD44"]
+fibroblast_to_neuron: ['ASCL1','POU3F2','MYT1L'] #https://www.nature.com/articles/nature08797
+fibroblast_to_sertoli: ['WT1','DMRT1','GATA4','SOX9'] #STF1 is not a TF, so not included #https://www.sciencedirect.com/science/article/pii/S1934590912004778
+fibroblast_to_thymus: ['FOXN1'] #https://www.nature.com/articles/ncb3023
+fibroblast_to_endothelium: ['FOXO1','ETV2','KLF2','TAL1','LMO2'] #https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.113.007727
+fibroblast_to_hsc: ["KLF4", "MYC", "SOX2", "POU5F1"]

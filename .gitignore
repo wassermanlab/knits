@@ -106,5 +106,5 @@ venv.bak/
 # Configs
 config.json
 config/config.json
-config.yml
-config/config.yml
+#config.yml
+#config/config.yml
