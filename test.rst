@@ -2,7 +2,7 @@
 KNITS - Knowledge Networks Informing Transcriptional Studies
 ================
 
-Generate DNA-binding Transcription Factor (TF) knowledge graph and perform pairwise comparisons of DNA-binding Transcription Factors using heterogeneous annotation data.
+Generate a DNA-binding Transcription Factor (TF) knowledge graph and perform pairwise comparisons of DNA-binding Transcription Factors using heterogeneous annotation data.
 
 Imports the following annotation data:
 
