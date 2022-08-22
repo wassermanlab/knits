@@ -245,14 +245,14 @@ class Entity_Importer(Data_Importer):
 #executes cypher scriptiing which loads gene/protein annotations. Annotations include: structure, function, & interactions
 class Annotation_Importer(Data_Importer):
     def create_go_annotations(self):
-        """ with self.driver.session() as session:
+        with self.driver.session() as session:
             print ("creating go annotations...")
             result = session.write_transaction(
                 self._create_ctdbase_go_annotations
             )
             for record in result:
-                print("({count}) GO annotations added".format(count=record['count'])) """
-        with self.driver.session() as session:
+                print("({count}) GO annotations added".format(count=record['count']))
+        """ with self.driver.session() as session:
             print("creating go annotations...")
             result = session.write_transaction(
                 self._create_go_annotations
@@ -262,7 +262,7 @@ class Annotation_Importer(Data_Importer):
                 self._format_go_annotations
             )
             for record in result:
-                print("({count}) GO annotations added".format(count=record['count']))
+                print("({count}) GO annotations added".format(count=record['count'])) """
     
     def create_gene_chemical_annotations(self):
         with self.driver.session() as session:

@@ -44,7 +44,6 @@ def get_go_annotations(gene_names):
     df_cc = request_report_as_csv('go',gene_names,'gene',{'ontology':'go_cc'})
     df_mf = request_report_as_csv('go',gene_names,'gene',{'ontology':'go_mf'})
     df = pd.concat([df_bp, df_cc, df_mf])
-    df.to_csv('current/data/gene_annotations/ctdbase/automated_go_annotations.csv')
     return df
 
 def get_chem_disease_associations(disease_names, chemical_names):
@@ -68,6 +67,11 @@ def request_CTDbase(gene_names):
     hmn_pathway_assc_curated = get_pathway_associations(gene_names=gene_names)
     print('saving...', end='')
     hmn_pathway_assc_curated.to_csv('current/data/gene_annotations/ctdbase/automated_curated_pathway_associations.csv')
+    print('done')
+    print('CTDBASE: finding GO annotations...',end='')
+    go_gene_assc = get_go_annotations(gene_names=gene_names)
+    print('saving', end='')
+    go_gene_assc.to_csv('current/data/gene_annotations/ctdbase/automated_go_annotations.csv')
     print('done')
 
     disease_ids = list(hmn_disease_assc_curated['DiseaseID'].unique())

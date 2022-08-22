@@ -9,7 +9,7 @@ from core import config as cfg
 import time
 import pandas as pd
 
-gene_names = cfg.FIBROBLAST_TO_NEURON + cfg.FIBROBLAST_TO_ENDOTHELIAL + cfg.FIBROBLAST_TO_THYMUS + cfg.FIBROBLAST_TO_HSC + cfg.FIBROBLAST_TO_SERTOLI
+gene_names = cfg.GENE_NAMES
 """ 
 def benchmark_iteratively(gene_names_added):
     ensembl_timing = []
@@ -67,9 +67,9 @@ def benchmark_once(gene_names):
 """
 #import sequence
 er.request_ensembl(gene_names=gene_names)
-jp.request_jaspar(gene_names=gene_names)
-gp.parse_go_annotations(gene_names=gene_names)
-tp.parse_tfclass(gene_names=gene_names)
-sr.request_string(gene_names=gene_names)
-br.request_biogrid(gene_names=gene_names)
+#jp.request_jaspar(gene_names=gene_names)
+#gp.parse_go_annotations(gene_names=gene_names)
+#tp.parse_tfclass(gene_names=gene_names)
+#sr.request_string(gene_names=gene_names)
+#br.request_biogrid(gene_names=gene_names)
 cr.request_CTDbase(gene_names=gene_names)
