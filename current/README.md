@@ -1,4 +1,3 @@
-================
 Project Structure
 ================
 
@@ -6,7 +5,7 @@ Project Structure
 2. Example - Yamanaka TF Graph
 
 Module Functionality & Data Flow
-=======
+----------
 Code for creation of KG is divided into three modules. These modules are meant to be executed in the following order: Import, Data, Construction.
 
 **Import**
@@ -26,7 +25,7 @@ Code and cypher scripting for constructing neo4j graph instance from data stored
 Data Importer module uses public URLs stored in config,yml file for data references. 
 
 Graph Construction Example - Yamanaka TFs
-=========
+---------
 1. Choose some number of human TFs. Assemble list of gene symbols encoding these TFs
 2. `current/import/scripting/config/config.yml`: Paste list of gene symbols into `gene_names` parameter.
 ![image](https://user-images.githubusercontent.com/95512439/186543871-57dd7271-13bf-4871-ad9d-cd420ddeaa82.png)
