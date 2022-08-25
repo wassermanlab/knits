@@ -47,7 +47,7 @@ Schema:
 
 ![image](https://user-images.githubusercontent.com/95512439/186757601-b40952a7-33a6-447f-8631-3ec7835d2f6b.png)
 
-[Further Reading](https://github.com/wassermanlab/knits/tree/main/current#module-functionality--data-flow)
+[Further Reading](https://github.com/wassermanlab/knits/tree/main/current#project-structure)
 
 [Back to Top](https://github.com/wassermanlab/knits/blob/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
 
