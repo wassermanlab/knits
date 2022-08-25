@@ -1,8 +1,8 @@
 Project Structure
 ================
 
-1. Module functionality & data flow
-2. Example - Yamanaka TF Graph
+1. [Project Structure Overview](https://github.com/wassermanlab/knits/edit/main/current/README.md#module-functionality--data-flow-modulefunctiondataflow)
+3. [Creating A Knowledge Graph - Step by step](https://github.com/wassermanlab/knits/edit/main/current/README.md#graph-construction-example---yamanaka-tfs)
 
 Module Functionality & Data Flow
 ----------
@@ -10,19 +10,21 @@ Code for creation of KG is divided into three modules. These modules are meant t
 
 **Import**
 
-Queries outside databases for annotatation information and parses response. Writes data to Data module, formatted as a series of CSV files.
+Uses user-defined gene symbols to query existing data repositories for annotation information. Parses, formats, and writes response to Data module, formatted as a series of CSV files.
 
 **Data**
 
-Acts as a temporary data repository for imported data. Written to by Import module. Read by Construction module. Data module is organized into three categories: Entities, Gene Annotations, & Protein Interactions. 
+Acts as a temporary data repository for imported data. Written by Import module. Read by Construction module. Data module is organized into three categories: Entities, Gene Annotations, & Protein Interactions. 
 
 Entities folder stores information about Genes and Gene Products. Gene Annotations stores annotation data assigned to each inputted Gene Symbol. Protein Interactions stores interactions & associations between various gene products.
 
+_Data must first be pushed to public github repo before becoming available for construction._
+
 **Construction**
 
-Code and cypher scripting for constructing neo4j graph instance from data stored in Data module. Data must first be pushed to public github repo before becoming available for construction.
+Code and cypher scripting for constructing neo4j graph instance from data stored in Data module. 
 
-Data Importer module uses public URLs stored in config,yml file for data references. 
+Data Importer module uses public URLs stored in config.yml file for data references.
 
 Graph Construction Example - Yamanaka TFs
 ---------
