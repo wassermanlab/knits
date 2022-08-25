@@ -26,6 +26,7 @@ Directories: <br/>
 │   │   │   └── cis-bp
 │   │   └── protein_interactions    #protein interaction data
 │   ├── doc     #notes on learnings and descisions made during work on project
+│   ├── analysis   #code and other instructions for computing pairwise similarity scores
 │   └── import         #scripts for ingesting remote data into local csv files
 │       ├── __pycache__
 │       ├── config              #URL and passkeys needed to interact w various biological databases
@@ -36,7 +37,7 @@ Directories: <br/>
 
 Schema:
 
-![image](https://user-images.githubusercontent.com/95512439/179076561-4603425a-b983-4bcc-9c8d-fbd3647033f1.png)
+![image](https://user-images.githubusercontent.com/95512439/186757601-b40952a7-33a6-447f-8631-3ec7835d2f6b.png)
 
 Mapping genes to TF:
 - Canonical Gene->Protein Relationships are chosen by canonical transcript status and primary sequence status in ensembl. These criteria yield a single gene->transcript->protein pathway for every protein in yamanaka graph.
