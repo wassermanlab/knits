@@ -1,5 +1,5 @@
-import requests
 import csv
+import fetch_endpoint as fe
 from core import config as cfg
 import utility_functions as utilfcns
 
@@ -12,7 +12,6 @@ import utility_functions as utilfcns
 #multiple small api calls (useful for small TF networks)
 #saves basic info about TFs as a map
 def get_basic_info(gene_names):
-    request_url = cfg.JASPAR_BASE_URL + "api/v1/matrix"
     jaspar_annotation = []
 
     params = {
@@ -26,8 +25,7 @@ def get_basic_info(gene_names):
 
     for i in range(len(gene_names)):
         params['name'] = gene_names[i]
-        print('getting ', gene_names[i])
-        r = requests.get(request_url,params=params)
+        r = fe.fetch_endpoint(cfg.JASPAR_BASE_URL,"api/v1/matrix",params=params)
         response = r.json()
         results = response['results']
         for result in results:
@@ -44,9 +42,7 @@ def get_basic_info(gene_names):
 def get_further_info(jaspar_annotation):
     request_url = cfg.JASPAR_BASE_URL + "api/v1/matrix"
     for i in range(len(jaspar_annotation)):
-        request_url_specific = request_url + "/" + jaspar_annotation[i]['latest_matrix_id']
-        print('getting', jaspar_annotation[i]['search_keyword'])
-        r = requests.get(request_url_specific)
+        r = fe.fetch_endpoint(request_url, "/"+ jaspar_annotation[i]['latest_matrix_id'])
         response = r.json()
         jaspar_annotation[i]['pubmed_ids'] = response['pubmed_ids']
         jaspar_annotation[i]['medline'] = response['medline']

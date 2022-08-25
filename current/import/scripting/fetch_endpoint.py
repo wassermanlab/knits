@@ -1,6 +1,6 @@
 import requests, sys
 
-def fetch_endpoint(server, request, params):
+def fetch_endpoint(server, request, params={}):
     r = requests.get(server+request, params)
     if not r.ok:
         r.raise_for_status()
