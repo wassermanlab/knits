@@ -1,8 +1,8 @@
 Project Structure
 ================
 
-1. [Project Structure Overview](https://github.com/wassermanlab/knits/edit/main/current/README.md#module-functionality--data-flow-modulefunctiondataflow)
-3. [Creating A Knowledge Graph - Step by step](https://github.com/wassermanlab/knits/edit/main/current/README.md#graph-construction-example---yamanaka-tfs)
+1. [Project Structure Overview](https://github.com/wassermanlab/knits/blob/main/current/README.md#module-functionality--data-flow-modulefunctiondataflow)
+3. [Creating A Knowledge Graph - Step by step](https://github.com/wassermanlab/knits/blob/main/current/README.md#graph-construction-example---yamanaka-tfs)
 
 Module Functionality & Data Flow
 ----------
@@ -32,6 +32,8 @@ Data Importer module uses public URLs stored in config.yml file for data referen
 
 [Further Reading](construction/MODULE_OVERVIEW.md)
 
+[Back to Top](https://github.com/wassermanlab/knits/blob/main/current/README.md#project-structure)
+
 Graph Construction Example - Yamanaka TFs
 ---------
 1. Choose some number of human TFs. Assemble list of gene symbols encoding these TFs
@@ -43,4 +45,6 @@ Graph Construction Example - Yamanaka TFs
 5. Create Neo4j account and generate a blank graph. Start database.
 6. `current/construction/config/config.yml`: change auradb uri, username, and password parameters to match your own database instance.
 7. `current/construction/main.py`:run file, populating your database with the knowledge graph. 
+
+[Back to Top](https://github.com/wassermanlab/knits/blob/main/current/README.md#project-structure)
 
