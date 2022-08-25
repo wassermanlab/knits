@@ -1,4 +1,4 @@
-Import
+`current/import`
 ===========
 
 This module is responsible for gathering and mapping information to user-defined gene symbols.
