@@ -11,13 +11,6 @@ It does this by:
 - Unifying Transcription Factor (TF) Annotations from high-value sources into a human and machine-readable Neo4j Graph Database
 - Using the structure of the graph database to develop pairwise TF similarity scores. This provides an automated and quantitative measure of similarity between any 2 TFs.
 
-Mapping genes to TF:
-- Canonical Gene->Protein Relationships are chosen by canonical transcript status and primary sequence status in ensembl. These criteria yield a single gene->transcript->protein pathway for every protein in yamanaka graph.
-
-Mapping annotations to TF:
-- Protein associations and interaction attached to protein isoform. 
-- All other annotation attached to gene encoding TF.
-
 [Back to Top](https://github.com/wassermanlab/knits/edit/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
 
 Structure
