@@ -12,6 +12,8 @@ Code for creation of KG is divided into three modules. These modules are meant t
 
 Uses user-defined gene symbols to query existing data repositories for annotation information. Parses, formats, and writes response to Data module, formatted as a series of CSV files.
 
+[Further Reading](import/MODULE_OVERVIEW.md)
+
 **Data**
 
 Acts as a temporary data repository for imported data. Written by Import module. Read by Construction module. Data module is organized into three categories: Entities, Gene Annotations, & Protein Interactions. 
@@ -20,11 +22,15 @@ Entities folder stores information about Genes and Gene Products. Gene Annotatio
 
 _Data must first be pushed to public github repo before becoming available for construction._
 
+[Further Reading](data/MODULE_OVERVIEW.md)
+
 **Construction**
 
 Code and cypher scripting for constructing neo4j graph instance from data stored in Data module. 
 
 Data Importer module uses public URLs stored in config.yml file for data references.
+
+[Further Reading](construction/MODULE_OVERVIEW.md)
 
 Graph Construction Example - Yamanaka TFs
 ---------
