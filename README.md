@@ -1,8 +1,8 @@
 KNITS - Knowledge Networks Informing Transcriptional Studies
 ====================
-[Description](https://github.com/wassermanlab/knits/edit/main/README.md#description) </br>
-[Project Structure](https://github.com/wassermanlab/knits/edit/main/README.md#structure) </br>
-[References](https://github.com/wassermanlab/knits/edit/main/README.md#references)
+[Description](https://github.com/wassermanlab/knits/blob/main/README.md#description) </br>
+[Project Structure](https://github.com/wassermanlab/knits/blob/main/README.md#structure) </br>
+[References](https://github.com/wassermanlab/knits/blob/main/README.md#references)
 
 Description
 --------------
