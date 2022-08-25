@@ -11,7 +11,7 @@ It does this by:
 - Unifying Transcription Factor (TF) Annotations from high-value sources into a human and machine-readable Neo4j Graph Database
 - Using the structure of the graph database to develop pairwise TF similarity scores. This provides an automated and quantitative measure of similarity between any 2 TFs.
 
-[Back to Top](https://github.com/wassermanlab/knits/edit/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
+[Back to Top](https://github.com/wassermanlab/knits/blob/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
 
 Structure
 -------------
@@ -49,7 +49,7 @@ Schema:
 
 [Further Reading](https://github.com/wassermanlab/knits/tree/main/current#module-functionality--data-flow)
 
-[Back to Top](https://github.com/wassermanlab/knits/edit/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
+[Back to Top](https://github.com/wassermanlab/knits/blob/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
 
 References
 -----------
@@ -63,4 +63,4 @@ References
 - The Gene Ontology resource: enriching a GOld mine. Nucleic Acids Res. Jan 2021;49(D1):D325-D334. [abstract | full text]
 - UCSC Genome Browser: Kent WJ, Sugnet CW, Furey TS, Roskin KM, Pringle TH, Zahler AM, Haussler D. The human genome browser at UCSC. Genome Res. 2002 Jun;12(6):996-1006. 
 
-[Back to Top](https://github.com/wassermanlab/knits/edit/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
+[Back to Top](https://github.com/wassermanlab/knits/blob/main/README.md#knits---knowledge-networks-informing-transcriptional-studies)
