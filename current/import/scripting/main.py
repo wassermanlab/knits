@@ -70,6 +70,7 @@ er.request_ensembl(gene_names=gene_names)
 #uncomment desired annotations sources
 #-----------------------------------------
 jp.request_jaspar(gene_names=gene_names)
+#gp.parse_go_annotations(gene_names=gene_names)
 tp.parse_tfclass(gene_names=gene_names)
 sr.request_string(gene_names=gene_names)
 br.request_biogrid(gene_names=gene_names)
