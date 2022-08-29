@@ -75,7 +75,7 @@ def lookup_all_alleles(alt_allele_mapping):
     #prune gene dataframes
     rows_to_keep = ['protein_coding']
     df = df.loc[df['biotype'].isin(rows_to_keep)]
-    """ columns_to_remove = [
+    columns_to_remove = [
         'Exon',
         'Translation',
         'start',
@@ -92,7 +92,7 @@ def lookup_all_alleles(alt_allele_mapping):
         ]
     for col in columns_to_remove:
         col_mask = df.columns.str.startswith(col)
-        df = df.loc[:,~col_mask] """
+        df = df.loc[:,~col_mask]
     df.rename(columns = {'id':'Transcript_Stable_ID','source':'Transcript_Source','display_name':'Transcript_Name','version':'Transcript_Version','is_canonical':'Ensembl_Canonical','protein_id':'Protein_Stable_ID','Gene_display_name':'Gene_Name','Gene_id':'Gene_Stable_ID','Gene_version':'Gene_Version','Gene_description':'Gene_Description'}, inplace = True)
     return df
 

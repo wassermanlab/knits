@@ -18,11 +18,11 @@ class Graph_Loader:
 
     def load_annotations(self):
         self.annotation_loader.create_go_annotations() #works!
-        """ self.annotation_loader.create_tfclass_annotations()
+        self.annotation_loader.create_tfclass_annotations()
         self.annotation_loader.create_cis_bp_annotations() #works
         self.annotation_loader.create_jaspar_pfm_annotations() #works! :)
         self.annotation_loader.create_biogrid_interaction_annotations()
-        self.annotation_loader.create_string_interaction_annotations() """
+        self.annotation_loader.create_string_interaction_annotations()
         self.annotation_loader.create_gene_disease_associations()
         self.annotation_loader.create_gene_chemical_annotations()
         self.annotation_loader.create_gene_pathway_annotations()
