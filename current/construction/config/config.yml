@@ -1,7 +1,7 @@
 auradb:
-  uri: "bolt://localhost:7687"
+  uri: "neo4j+s://8be58893.databases.neo4j.io"
   user: "neo4j"
-  password: "123"
+  password: "WgmLHFvHYXoxaGUexKk5gdzFWuRWQtbBzeDne8k-Jps"
 data_uri:
   #ensembl (inactive)
   gene2uniparc: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/ensembl_gene_to_uniparc.csv'
