@@ -1,5 +1,5 @@
 auradb:
-  uri: "bolt://localhost:7687"
+  uri: "neo4j://localhost:7687"
   user: "neo4j"
   password: "123"
 data_uri:
@@ -8,20 +8,20 @@ data_uri:
   alt_seq_automated: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/automated_alt_seq_mapping.csv?token=GHSAT0AAAAAABULJJFXISPBEDSZ5KQPHRZEYYNJMWQ'
   #ctdbase
   ctdbase:
-    go: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_go_annotations.csv'
-    gene_disease: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_curated_disease_associations.csv'
-    pathway: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_curated_pathway_associations.csv'
-    gene_chem_association: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_curated_chem_associations.csv'
-    gene_chem_interaction: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_chem_gene_interactions.csv'
-    disease_chem_association: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_chem_disease_associations.csv'
+    go: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_go_annotations.csv'
+    gene_disease: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_curated_disease_associations.csv'
+    pathway: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_curated_pathway_associations.csv'
+    gene_chem_association: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_curated_chem_associations.csv'
+    gene_chem_interaction: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_chem_gene_interactions.csv'
+    disease_chem_association: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_chem_disease_associations.csv'
   #cis-bp
-  cis_bp_prot_seq: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/cis-bp/prot_seq.tsv'
+  cis_bp_prot_seq: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/cis-bp/prot_seq.tsv'
   #tfclass
-  tfclass: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/TFClass.csv'
+  tfclass: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/TFClass.csv'
   #jaspar
-  jaspar_pfm: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/jaspar_TF_PFM.csv'
+  jaspar_pfm: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/jaspar_TF_PFM.csv'
   #biogrid
-  biogrid: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/automated_biogrid_interactions.csv'
+  biogrid: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/protein_interactions/automated_biogrid_interactions.csv'
   #string
   string_annotation: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/automated_string_annotations.csv'
   string_functional_and_physical_interactions: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/automated_string_interactions.csv'
