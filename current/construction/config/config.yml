@@ -4,35 +4,35 @@ auradb:
   password: "123"
 data_uri:
   #ensembl (inactive)
-  gene2uniparc: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/ensembl_gene_to_uniparc.csv'
-  gene2uniparccd44: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/ensembl_gene_to_uniparc_cd44.csv'
-  gene2uniprot: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/ensembl_gene_to_uniprot_accessions.csv'
-  gene2uniprotcd44: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/ensembl_gene_to_uniprot_accession_cd44.csv'
-  alt_seq: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/yamanaka_alt_seq_mapping%20copy.csv'
+  gene2uniparc: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/ensembl_gene_to_uniparc.csv'
+  gene2uniparccd44: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/ensembl_gene_to_uniparc_cd44.csv'
+  gene2uniprot: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/ensembl_gene_to_uniprot_accessions.csv'
+  gene2uniprotcd44: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/ensembl_gene_to_uniprot_accession_cd44.csv'
+  alt_seq: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/yamanaka_alt_seq_mapping%20copy.csv'
   #ensembl (active)
-  gene2uniparc_automated: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/automated_gene_to_uniparc.csv'
-  alt_seq_automated: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/entities/automated_alt_seq_mapping.csv'
+  gene2uniparc_automated: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/automated_gene_to_uniparc.csv'
+  alt_seq_automated: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/entities/automated_alt_seq_mapping.csv'
   #go
-  goa_pruned: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/namayura_GAF_Pruned.csv'
-  pir_slim_pruned: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/cd44_PIR_GAF.tsv'
-  generic_slim_pruned: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/cd44_Generic_GAF.tsv'
+  goa_pruned: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/namayura_GAF_Pruned.csv'
+  pir_slim_pruned: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/cd44_PIR_GAF.tsv'
+  generic_slim_pruned: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/cd44_Generic_GAF.tsv'
   #ctdbase
   ctdbase:
-    go: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_go_annotations.csv'
-    gene_disease: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_curated_disease_associations.csv'
-    pathway: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_curated_pathway_associations.csv'
-    gene_chem_association: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_curated_chem_associations.csv'
-    gene_chem_interaction: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_chem_gene_interactions.csv'
-    disease_chem_association: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/ctdbase/automated_chem_disease_associations.csv'
+    go: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_go_annotations.csv'
+    gene_disease: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_curated_disease_associations.csv'
+    pathway: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_curated_pathway_associations.csv'
+    gene_chem_association: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_curated_chem_associations.csv'
+    gene_chem_interaction: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_chem_gene_interactions.csv'
+    disease_chem_association: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/ctdbase/automated_chem_disease_associations.csv'
   #cis-bp
-  cis_bp_prot_seq: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/cis-bp/prot_seq.tsv'
+  cis_bp_prot_seq: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/cis-bp/prot_seq.tsv'
   #tfclass
-  tfclass: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/TFClass.csv'
+  tfclass: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/TFClass.csv'
   #jaspar
-  jaspar_pfm: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/gene_annotations/jaspar_TF_PFM.csv'
+  jaspar_pfm: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/gene_annotations/jaspar_TF_PFM.csv'
   #biogrid
-  biogrid: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/automated_biogrid_interactions.csv'
+  biogrid: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/protein_interactions/automated_biogrid_interactions.csv'
   #string
-  string_annotation: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/automated_string_annotations.csv'
-  string_functional_and_physical_interactions: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/automated_string_interactions.csv'
-  string_physical_interactions: 'https://raw.githubusercontent.com/masvsal/WassermanGraphTF/main/current/data/protein_interactions/string_physical_interactions'
+  string_annotation: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/protein_interactions/automated_string_annotations.csv'
+  string_functional_and_physical_interactions: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/protein_interactions/automated_string_interactions.csv'
+  string_physical_interactions: 'https://raw.githubusercontent.com/wassermanlab/knits/main/current/data/protein_interactions/string_physical_interactions'
